@@ -1,7 +1,32 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
+<<<<<<< HEAD
     <list default="true" id="738fe44e-5fef-463d-be91-6329f89343e6" name="Default Changelist" comment="" />
+=======
+<<<<<<< HEAD
+    <list default="true" id="3c10faff-ef2c-4ac7-a172-eef804ea9bf9" name="Default Changelist" comment="Merge branch 'master' of https://github.com/Cinthy-sophia/tema09&#10;&#10;# Conflicts:&#10;#&#9;.gradle/4.10/fileHashes/fileHashes.bin&#10;#&#9;.gradle/4.10/fileHashes/fileHashes.lock&#10;#&#9;.idea/misc.xml&#10;#&#9;.idea/workspace.xml&#10;#&#9;gradle/wrapper/gradle-wrapper.properties&#10;#&#9;src/main/java/com/cinthyasophia/tema09/Main.java&#10;#&#9;src/main/java/com/cinthyasophia/tema09/ejercicio04/Ejercicio04.java&#10;#&#9;src/main/java/com/cinthyasophia/tema09/ejercicio05/Ejercicio05.java">
+      <change beforePath="$PROJECT_DIR$/.gradle/4.10/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10/fileHashes/fileHashes.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/4.10/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10/fileHashes/fileHashes.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/com.cinthyasophia.tema09.main.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/com.cinthyasophia.tema09.main.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/com.cinthyasophia.tema09.test.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/com.cinthyasophia.tema09.test.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/com/cinthyasophia/tema09/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/com/cinthyasophia/tema09/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/com/cinthyasophia/tema09/ejercicio04/Ejercicio04.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/com/cinthyasophia/tema09/ejercicio04/Ejercicio04.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/com/cinthyasophia/tema09/ejercicio05/Ejercicio05.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/com/cinthyasophia/tema09/ejercicio05/Ejercicio05.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/cinthyasophia/tema09/ejercicio07/Ejercicio07.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/cinthyasophia/tema09/ejercicio07/Ejercicio07.java" afterDir="false" />
+=======
+    <list default="true" id="738fe44e-5fef-463d-be91-6329f89343e6" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/com.cinthyasophia.tema09.main.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/com.cinthyasophia.tema09.main.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/com.cinthyasophia.tema09.test.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/com.cinthyasophia.tema09.test.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+>>>>>>> bf23d3f5b6d3923a18ff4d96ecd7c264985b75d8
+    </list>
+>>>>>>> 87e429532a26f04ad73504d45bd0c7eec0f41244
     <ignored path="$PROJECT_DIR$/build/" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -14,12 +39,30 @@
     </projectState>
   </component>
   <component name="FileEditorManager">
+<<<<<<< HEAD
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/cinthyasophia/tema09/Main.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="165">
+              <caret line="11" selection-start-line="11" selection-end-line="11" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/cinthyasophia/tema09/ejercicio07/Ejercicio07.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="240">
+              <caret line="25" column="18" lean-forward="true" selection-start-line="25" selection-start-column="18" selection-end-line="25" selection-end-column="18" />
+=======
     <leaf>
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/cinthyasophia/tema09/Main.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="165">
               <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
+>>>>>>> bf23d3f5b6d3923a18ff4d96ecd7c264985b75d8
             </state>
           </provider>
         </entry>
@@ -29,34 +72,113 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+<<<<<<< HEAD
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/.idea/misc.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/cinthyasophia/tema09/ejercicio07/Ejercicio07.java" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="y" value="25" />
+    <option name="width" value="683" />
+    <option name="height" value="743" />
+  </component>
+=======
+>>>>>>> bf23d3f5b6d3923a18ff4d96ecd7c264985b75d8
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+<<<<<<< HEAD
+=======
       <pane id="Scope" />
+>>>>>>> bf23d3f5b6d3923a18ff4d96ecd7c264985b75d8
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
               <item name="com.cinthyasophia.tema09" type="b2602c69:ProjectViewProjectNode" />
+<<<<<<< HEAD
+              <item name="com.cinthyasophia.tema09" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+            </path>
+            <path>
+              <item name="com.cinthyasophia.tema09" type="b2602c69:ProjectViewProjectNode" />
+              <item name="com.cinthyasophia.tema09" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="out" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="com.cinthyasophia.tema09" type="b2602c69:ProjectViewProjectNode" />
+              <item name="com.cinthyasophia.tema09" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="com.cinthyasophia.tema09" type="b2602c69:ProjectViewProjectNode" />
+              <item name="com.cinthyasophia.tema09" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+            </path>
+            <path>
+              <item name="com.cinthyasophia.tema09" type="b2602c69:ProjectViewProjectNode" />
+              <item name="com.cinthyasophia.tema09" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="com.cinthyasophia.tema09" type="b2602c69:ProjectViewProjectNode" />
+              <item name="com.cinthyasophia.tema09" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="tema09" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="com.cinthyasophia.tema09" type="b2602c69:ProjectViewProjectNode" />
+              <item name="com.cinthyasophia.tema09" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="tema09" type="462c0819:PsiDirectoryNode" />
+              <item name="ejercicio07" type="462c0819:PsiDirectoryNode" />
+=======
               <item name="tema09" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
             </path>
             <path>
               <item name="com.cinthyasophia.tema09" type="b2602c69:ProjectViewProjectNode" />
               <item name="tema09" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
+>>>>>>> bf23d3f5b6d3923a18ff4d96ecd7c264985b75d8
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
       <pane id="PackagesPane" />
+<<<<<<< HEAD
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1549443497881" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.project.gradle" />
+=======
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+<<<<<<< HEAD
     <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1549381049960" />
+=======
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1549381036221" />
+>>>>>>> bf23d3f5b6d3923a18ff4d96ecd7c264985b75d8
+>>>>>>> 87e429532a26f04ad73504d45bd0c7eec0f41244
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -70,7 +192,11 @@
       </list>
     </option>
   </component>
+<<<<<<< HEAD
+  <component name="RunManager" selected="Application.Main">
+=======
   <component name="RunManager">
+>>>>>>> bf23d3f5b6d3923a18ff4d96ecd7c264985b75d8
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.cinthyasophia.tema09.Main" />
       <module name="com.cinthyasophia.tema09.main" />
@@ -84,9 +210,33 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+<<<<<<< HEAD
+    <configuration name="com.cinthyasophia.tema09" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list />
+        </option>
+        <option name="vmOptions" value="" />
+      </ExternalSystemSettings>
+      <GradleScriptDebugEnabled>true</GradleScriptDebugEnabled>
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
         <item itemvalue="Application.Main" />
+        <item itemvalue="Gradle.com.cinthyasophia.tema09" />
+=======
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Main" />
+>>>>>>> bf23d3f5b6d3923a18ff4d96ecd7c264985b75d8
       </list>
     </recent_temporary>
   </component>
@@ -95,19 +245,30 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="2792a387-1ce4-4a5f-ae5a-5de46755f68a" name="Default Changelist" comment="" />
+      <changelist id="3c10faff-ef2c-4ac7-a172-eef804ea9bf9" name="Default Changelist" comment="Merge branch 'master' of https://github.com/Cinthy-sophia/tema09&#10;&#10;# Conflicts:&#10;#&#9;.gradle/4.10/fileHashes/fileHashes.bin&#10;#&#9;.gradle/4.10/fileHashes/fileHashes.lock&#10;#&#9;.idea/misc.xml&#10;#&#9;.idea/workspace.xml&#10;#&#9;gradle/wrapper/gradle-wrapper.properties&#10;#&#9;src/main/java/com/cinthyasophia/tema09/Main.java&#10;#&#9;src/main/java/com/cinthyasophia/tema09/ejercicio04/Ejercicio04.java&#10;#&#9;src/main/java/com/cinthyasophia/tema09/ejercicio05/Ejercicio05.java" />
       <created>1549103846032</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1549103846032</updated>
     </task>
+<<<<<<< HEAD
     <task id="LOCAL-00001" summary="ki">
       <created>1549381050136</created>
       <option name="number" value="00001" />
       <option name="presentableId" value="LOCAL-00001" />
       <option name="project" value="LOCAL" />
       <updated>1549381050136</updated>
+=======
+    <task id="LOCAL-00001" summary="jo">
+      <created>1549358569912</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1549358569913</updated>
+>>>>>>> 87e429532a26f04ad73504d45bd0c7eec0f41244
     </task>
+<<<<<<< HEAD
+=======
     <task id="LOCAL-00002" summary="p">
       <created>1549294530542</created>
       <option name="number" value="00002" />
@@ -143,7 +304,11 @@
       <option name="project" value="LOCAL" />
       <updated>1549380500003</updated>
     </task>
+<<<<<<< HEAD
     <option name="localTasksCounter" value="2" />
+=======
+>>>>>>> bf23d3f5b6d3923a18ff4d96ecd7c264985b75d8
+>>>>>>> 87e429532a26f04ad73504d45bd0c7eec0f41244
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -158,13 +323,27 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
+<<<<<<< HEAD
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32899022" />
+=======
       <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49924242" weight="0.32899022" />
+>>>>>>> bf23d3f5b6d3923a18ff4d96ecd7c264985b75d8
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32899022" />
+<<<<<<< HEAD
       <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.49924242" weight="0.8257329" />
       <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.5007576" side_tool="true" weight="0.8257329" />
+=======
+<<<<<<< HEAD
+      <window_info anchor="bottom" id="Terminal" order="7" weight="0.3762215" />
+      <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" weight="0.32899022" />
+=======
+      <window_info anchor="bottom" id="Terminal" order="7" weight="0.8257329" />
+      <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.5007576" side_tool="true" weight="0.32899022" />
+>>>>>>> bf23d3f5b6d3923a18ff4d96ecd7c264985b75d8
+>>>>>>> 87e429532a26f04ad73504d45bd0c7eec0f41244
       <window_info anchor="bottom" id="Version Control" order="9" weight="0.32899022" />
       <window_info anchor="bottom" id="Build" order="10" weight="0.32899022" />
       <window_info anchor="bottom" id="Messages" order="11" weight="0.32899022" />
@@ -196,6 +375,20 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
+<<<<<<< HEAD
+    <MESSAGE value="jo" />
+    <option name="LAST_COMMIT_MESSAGE" value="jo" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/.idea/misc.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" column="5" selection-start-line="3" selection-start-column="5" selection-end-line="3" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
+=======
     <MESSAGE value="p" />
     <MESSAGE value="o" />
     <MESSAGE value="lo" />
@@ -212,14 +405,105 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/.idea/misc.xml">
+>>>>>>> bf23d3f5b6d3923a18ff4d96ecd7c264985b75d8
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/cinthyasophia/tema09/Main.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="165">
+<<<<<<< HEAD
+          <caret line="11" selection-start-line="11" selection-end-line="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/cinthyasophia/tema09/ejercicio07/Ejercicio07.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="25" column="18" lean-forward="true" selection-start-line="25" selection-start-column="18" selection-end-line="25" selection-end-column="18" />
+=======
           <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
+>>>>>>> bf23d3f5b6d3923a18ff4d96ecd7c264985b75d8
         </state>
       </provider>
     </entry>
   </component>
+<<<<<<< HEAD
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>No facets are configured</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>11</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>com.cinthyasophia.tema09</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.6" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>Gradle: junit:junit:4.12</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+=======
+>>>>>>> bf23d3f5b6d3923a18ff4d96ecd7c264985b75d8
 </project>

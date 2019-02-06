@@ -6,13 +6,12 @@ public class Ejercicio07 {
     public Scanner lector = new Scanner(System.in);
 
     public Ejercicio07(){
-        String[] palabras= new String[5];
+        String[] palabras = new String[5];
 
         for (int i = 0; i < palabras.length; i++) {
-            System.out.println("Introduce la cadena numero "+i+" del array.");
+            System.out.println("Introduce la cadena numero "+(i+1)+" del array.");
             palabras[i]= lector.nextLine();
         }
-
         mostrarCadenasArray(palabras);
     }
 
@@ -20,11 +19,13 @@ public class Ejercicio07 {
         String p;
 
         for (int i = 0; i < vector.length; i++) {
-            if (vector[i] == null) {
-                System.out.println("Esta posicion esta vacia.");
+
+            if (vector[i] != null && !(vector[i].isEmpty())) {
+                p=vector[i];
+                System.out.println(p.charAt(0));
             } else{
-                p=vector[i].substring(0,2);
-                System.out.println(p);
+
+                System.out.println("Esta posicion esta vacia.");
             }
 
         }
