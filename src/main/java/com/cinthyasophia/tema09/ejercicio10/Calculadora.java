@@ -1,5 +1,6 @@
 package com.cinthyasophia.tema09.ejercicio10;
 
+import java.util.InputMismatchException;
 import java.util.Scanner;
 
 /**
@@ -10,16 +11,11 @@ public class Calculadora {
     public Scanner lector = new Scanner (System.in);
 
     public Calculadora() {
-
-        //Declaro las variables al inicio del todo.
+        ///Declaro las variables
         int decision;
-        float pSumando;
-        float sSumando;
-        float suma;
-
-        float minuendo;
-        float sustraendo;
-        float resta;
+        float pSumando=0;
+        float sSumando=0;
+        float suma=0;
 
         float pFactor;
         float sFactor;
@@ -32,8 +28,7 @@ public class Calculadora {
         float rDividendo;
         float rDivisor;
         float resto;
-
-        //Utilizo un bucle do para la ejecucion.
+        boolean isNumber;
 
         do {     
            decision= menuCalculadora();
@@ -41,19 +36,37 @@ public class Calculadora {
             switch (decision) {
 
                 //En caso de suma.
-
                 case 1:
+                    do {
+                        System.out.print("Primer sumando: ");
+                        try{
+                            pSumando= lector.nextFloat();
+                            isNumber=true;
 
-                    System.out.print("Introduce los datos y presiona intro: ");
-                    pSumando= lector.nextFloat();
-                    lector.nextLine();
+                        }catch (InputMismatchException ime){
+                            System.out.println("Debes introducir un numero no una letra, vuelve a intentarlo.");
+                            isNumber=false;
 
-                    System.out.print(" + ");
+                        }finally {
+                            lector.nextLine();
+                        }
+                    }while(!isNumber);
 
-                    sSumando= lector.nextFloat();
-                    lector.nextLine();
 
-                    // Se ejecuta la suma y luego se imprime.
+                    do {
+                        System.out.print("Segundo sumando: ");
+                        try{
+                            sSumando= lector.nextFloat();
+                            isNumber=true;
+
+                        }catch (InputMismatchException ime){
+                            System.out.println("Debes introducir un numero no una letra, vuelve a intentarlo.");
+                            isNumber=false;
+
+                        }finally {
+                            lector.nextLine();
+                        }
+                    }while(!isNumber);
 
                     suma= pSumando + sSumando;
 
@@ -64,21 +77,7 @@ public class Calculadora {
                 //En caso de resta.
 
                 case 2:
-                    System.out.print("Introduce los datos y presiona intro: ");
-                    sustraendo= lector.nextFloat();
-                    lector.nextLine();
-
-                    System.out.print(" - ");
-
-                    minuendo= lector.nextFloat();
-                    lector.nextLine();
-
-                    // Se ejecuta la resta y luego se imprime.
-
-                    resta= sustraendo - minuendo;
-
-                    System.out.println(sustraendo+ " - "+minuendo+ " = "+ resta);
-                        
+                    resta();
                     break;
 
                 //En caso de multiplicacion.
@@ -87,8 +86,6 @@ public class Calculadora {
                     System.out.print("Introduce los datos y presiona intro: ");
                     pFactor= lector.nextFloat();
                     lector.nextLine();
-
-                    System.out.print(" * ");
 
                     sFactor= lector.nextFloat();
                     lector.nextLine();
@@ -108,8 +105,6 @@ public class Calculadora {
                     dividendo= lector.nextFloat();
                     lector.nextLine();
 
-                    System.out.print(" / ");
-
                     divisor= lector.nextFloat();
                     lector.nextLine();
 
@@ -128,7 +123,6 @@ public class Calculadora {
                     rDividendo= lector.nextFloat();
                     lector.nextLine();
 
-                    System.out.print(" % ");
 
                     rDivisor= lector.nextFloat();
                     lector.nextLine();
@@ -137,7 +131,7 @@ public class Calculadora {
 
                     resto= rDividendo % rDivisor;
 
-                    System.out.println(rDividendo +" % "+ rDivisor + " = "+ resto);
+                    System.out.println("El resto de "+rDividendo +" / "+ rDivisor + " es "+ resto);
                     
                     break;
 
@@ -150,11 +144,28 @@ public class Calculadora {
         } while (decision != 0);
 
 
+    }
+    public void resta(){
+        float minuendo;
+        float sustraendo;
+        float resta;
 
-        
+        System.out.print("Sustraendo: ");
+        sustraendo= lector.nextFloat();
+        lector.nextLine();
+
+        System.out.print("Minuendo: ");
+        minuendo= lector.nextFloat();
+        lector.nextLine();
+
+
+        resta= sustraendo - minuendo;
+
+        System.out.println(sustraendo+ " - "+minuendo+ " = "+ resta);
     }
     public int menuCalculadora() {
-        int decision;
+        int decision=0;
+        boolean isNumber;
         //La lista de ordenes a ejecutar.
         System.out.println("Elige una opcion y presiona intro:");
         System.out.println("1. Suma");
@@ -164,8 +175,20 @@ public class Calculadora {
         System.out.println("5. Resto de una division");
         System.out.println("-------------------------");
         System.out.println("0. Salir");
-        decision = lector.nextInt();
-        lector.nextLine();
+        do {
+            try{
+                decision = lector.nextInt();
+                isNumber=true;
+
+            }catch (InputMismatchException ime){
+                System.out.println("Debes introducir un numero no una letra, vuelve a intentarlo.");
+                isNumber=false;
+
+            }finally {
+                lector.nextLine();
+            }
+        }while(!isNumber);
+
         return decision;
 
     }
