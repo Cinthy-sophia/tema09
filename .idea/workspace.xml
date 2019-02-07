@@ -1,11 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="d786932d-fabc-4b6c-bc62-c267466a182d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/cinthyasophia/tema09/ejercicio10/Calculadora.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/cinthyasophia/tema09/ejercicio10/Ejercicio10.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="d786932d-fabc-4b6c-bc62-c267466a182d" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/.gradle/" />
     <ignored path="$PROJECT_DIR$/build/" />
     <option name="SHOW_DIALOG" value="false" />
@@ -95,6 +91,11 @@
       </list>
     </option>
   </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="y" value="25" />
+    <option name="width" value="683" />
+    <option name="height" value="743" />
+  </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
@@ -154,7 +155,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1549547398036" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1549547417391" />
     <property name="settings.editor.selected.configurable" value="reference.settingsdialog.project.gradle" />
   </component>
   <component name="RecentsManager">
@@ -233,12 +234,12 @@
       <option name="project" value="LOCAL" />
       <updated>1549537802821</updated>
     </task>
-    <task id="LOCAL-00005" summary="perro">
-      <created>1549299595512</created>
+    <task id="LOCAL-00005" summary="Añado ejercicio 9 terminado">
+      <created>1549547418041</created>
       <option name="number" value="00005" />
       <option name="presentableId" value="LOCAL-00005" />
       <option name="project" value="LOCAL" />
-      <updated>1549299595512</updated>
+      <updated>1549547418041</updated>
     </task>
     <task id="LOCAL-00006" summary="perro">
       <created>1549380500003</created>
@@ -247,12 +248,11 @@
       <option name="project" value="LOCAL" />
       <updated>1549380500003</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="25" width="1366" height="743" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info id="Project" internal_type="SLIDING" order="0" sideWeight="0.49837133" type="SLIDING" weight="0.22272727" />
       <window_info id="Structure" order="1" sideWeight="0.50162864" side_tool="true" weight="0.2159091" />
