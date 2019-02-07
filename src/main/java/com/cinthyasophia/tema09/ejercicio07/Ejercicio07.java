@@ -11,7 +11,12 @@ public class Ejercicio07 {
         for (int i = 0; i < palabras.length; i++) {
             System.out.println("Introduce la cadena numero "+(i+1)+" del array.");
             palabras[i]= lector.nextLine();
+
+            if (palabras[i].isEmpty()){
+                palabras[i]=null;
+            }
         }
+
         mostrarCadenasArray(palabras);
     }
 
@@ -20,11 +25,10 @@ public class Ejercicio07 {
 
         for (int i = 0; i < vector.length; i++) {
 
-            if (vector[i] != null && !(vector[i].isEmpty())) {
+            if (vector[i] != null) {
                 p=vector[i];
                 System.out.println(p.charAt(0));
             } else{
-
                 System.out.println("Esta posicion esta vacia.");
             }
 
