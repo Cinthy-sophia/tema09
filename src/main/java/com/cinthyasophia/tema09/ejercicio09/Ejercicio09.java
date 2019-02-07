@@ -8,11 +8,13 @@ public class Ejercicio09 {
         } catch (MyArithmeticException mae) {
             System.out.println(mae.getMessage());
         }
+
         try {
             myNullPointerException();
         } catch (MyNullPointerException mnpe) {
             System.out.println(mnpe.getMessage());
         }
+
         try {
             myIndexOutOfBoundsException();
         } catch (MyIndexOutOfBoundsException miobe) {
