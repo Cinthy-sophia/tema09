@@ -2,18 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d786932d-fabc-4b6c-bc62-c267466a182d" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/com.cinthyasophia.tema09.main.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/com.cinthyasophia.tema09.main.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/com.cinthyasophia.tema09.test.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/com.cinthyasophia.tema09.test.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/com/cinthyasophia/tema09/Main.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/com/cinthyasophia/tema09/ejercicio01/Ejercicio01.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/com/cinthyasophia/tema09/ejercicio02/Ejercicio02.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/com/cinthyasophia/tema09/ejercicio04/Ejercicio04.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/com/cinthyasophia/tema09/ejercicio05/Alumno.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/com/cinthyasophia/tema09/ejercicio05/Ejercicio05.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/com/cinthyasophia/tema09/ejercicio06/Ejercicio06.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/com/cinthyasophia/tema09/ejercicio07/Ejercicio07.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/cinthyasophia/tema09/ejercicio10/Calculadora.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/cinthyasophia/tema09/ejercicio10/Calculadora.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.gradle/" />
@@ -49,34 +38,14 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/cinthyasophia/tema09/ejercicio09/Ejercicio09.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="450">
-              <caret line="30" column="44" selection-start-line="30" selection-start-column="44" selection-end-line="30" selection-end-column="44" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/cinthyasophia/tema09/ejercicio10/Calculadora.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="487">
-              <caret line="205" column="35" selection-start-line="205" selection-start-column="35" selection-end-line="205" selection-end-column="35" />
+            <state relative-caret-position="-638">
+              <caret line="67" column="8" selection-start-line="67" selection-start-column="8" selection-end-line="67" selection-end-column="8" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#5385#5386#0" expanded="true" />
-                <element signature="e#5424#5425#0" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/cinthyasophia/tema09/ejercicio09/MyIndexOutOfBoundsException.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="30">
-              <caret line="2" column="74" selection-start-line="2" selection-start-column="74" selection-end-line="2" selection-end-column="74" />
             </state>
           </provider>
         </entry>
@@ -120,56 +89,7 @@
       <hideEmptyPackages ProjectPane="true" />
       <foldersAlwaysOnTop value="true" />
     </navigator>
-    <panes>
-      <pane id="PackagesPane" />
-      <pane id="ProjectPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="com.cinthyasophia.tema09" type="b2602c69:ProjectViewProjectNode" />
-              <item name="com.cinthyasophia.tema09" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-            </path>
-            <path>
-              <item name="com.cinthyasophia.tema09" type="b2602c69:ProjectViewProjectNode" />
-              <item name="com.cinthyasophia.tema09" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="com.cinthyasophia.tema09" type="b2602c69:ProjectViewProjectNode" />
-              <item name="com.cinthyasophia.tema09" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-            </path>
-            <path>
-              <item name="com.cinthyasophia.tema09" type="b2602c69:ProjectViewProjectNode" />
-              <item name="com.cinthyasophia.tema09" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="com.cinthyasophia.tema09" type="b2602c69:ProjectViewProjectNode" />
-              <item name="com.cinthyasophia.tema09" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="tema09" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="com.cinthyasophia.tema09" type="b2602c69:ProjectViewProjectNode" />
-              <item name="com.cinthyasophia.tema09" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="tema09" type="462c0819:PsiDirectoryNode" />
-              <item name="ejercicio10" type="462c0819:PsiDirectoryNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
-      <pane id="Scope" />
-    </panes>
+    <panes />
   </component>
   <component name="PropertiesComponent">
     <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1549547417391" />
@@ -258,14 +178,14 @@
       <option name="project" value="LOCAL" />
       <updated>1549547418041</updated>
     </task>
-    <task id="LOCAL-00006" summary="perro">
-      <created>1549380500003</created>
+    <task id="LOCAL-00006" summary="Añado ejercicio 10 a medio hacer">
+      <created>1549613966436</created>
       <option name="number" value="00006" />
       <option name="presentableId" value="LOCAL-00006" />
       <option name="project" value="LOCAL" />
-      <updated>1549380500003</updated>
+      <updated>1549613966436</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -286,7 +206,7 @@
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32899022" />
-      <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.49848485" weight="0.4025974" />
+      <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.49848485" weight="0.40228012" />
       <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.50151515" side_tool="true" weight="0.32899022" />
       <window_info anchor="bottom" id="Version Control" order="9" weight="0.32899022" />
       <window_info anchor="bottom" id="Build" order="10" sideWeight="0.49848485" weight="0.32899022" />
@@ -323,7 +243,8 @@
     <MESSAGE value="cambio ejercicio 7" />
     <MESSAGE value="Añado ejercicio 8" />
     <MESSAGE value="Añado ejercicio 9 terminado" />
-    <option name="LAST_COMMIT_MESSAGE" value="Añado ejercicio 9 terminado" />
+    <MESSAGE value="Añado ejercicio 10 a medio hacer" />
+    <option name="LAST_COMMIT_MESSAGE" value="Añado ejercicio 10 a medio hacer" />
   </component>
   <component name="antWorkspaceConfiguration">
     <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
@@ -405,13 +326,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/cinthyasophia/tema09/ejercicio09/Ejercicio09.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="450">
-          <caret line="30" column="44" selection-start-line="30" selection-start-column="44" selection-end-line="30" selection-end-column="44" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/cinthyasophia/tema09/ejercicio09/MyIndexOutOfBoundsException.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="30">
@@ -419,14 +333,19 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/cinthyasophia/tema09/ejercicio09/Ejercicio09.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="450">
+          <caret line="30" column="44" selection-start-line="30" selection-start-column="44" selection-end-line="30" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/cinthyasophia/tema09/ejercicio10/Calculadora.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="487">
-          <caret line="205" column="35" selection-start-line="205" selection-start-column="35" selection-end-line="205" selection-end-column="35" />
+        <state relative-caret-position="-638">
+          <caret line="67" column="8" selection-start-line="67" selection-start-column="8" selection-end-line="67" selection-end-column="8" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#5385#5386#0" expanded="true" />
-            <element signature="e#5424#5425#0" expanded="true" />
           </folding>
         </state>
       </provider>
