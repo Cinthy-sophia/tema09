@@ -9,27 +9,11 @@ import java.util.Scanner;
 
 public class Calculadora {
     public Scanner lector = new Scanner (System.in);
+    public boolean isNumber;
 
     public Calculadora() {
-        ///Declaro las variables
+
         int decision;
-        float pSumando=0;
-        float sSumando=0;
-        float suma=0;
-
-        float pFactor;
-        float sFactor;
-        float producto;
-
-        float dividendo;
-        float divisor;
-        float cociente;
-
-        float rDividendo;
-        float rDivisor;
-        float resto;
-        boolean isNumber;
-
         do {     
            decision= menuCalculadora();
             //Utilizo un switch para cada caso.
@@ -37,41 +21,7 @@ public class Calculadora {
 
                 //En caso de suma.
                 case 1:
-                    do {
-                        System.out.print("Primer sumando: ");
-                        try{
-                            pSumando= lector.nextFloat();
-                            isNumber=true;
-
-                        }catch (InputMismatchException ime){
-                            System.out.println("Debes introducir un numero no una letra, vuelve a intentarlo.");
-                            isNumber=false;
-
-                        }finally {
-                            lector.nextLine();
-                        }
-                    }while(!isNumber);
-
-
-                    do {
-                        System.out.print("Segundo sumando: ");
-                        try{
-                            sSumando= lector.nextFloat();
-                            isNumber=true;
-
-                        }catch (InputMismatchException ime){
-                            System.out.println("Debes introducir un numero no una letra, vuelve a intentarlo.");
-                            isNumber=false;
-
-                        }finally {
-                            lector.nextLine();
-                        }
-                    }while(!isNumber);
-
-                    suma= pSumando + sSumando;
-
-                    System.out.println(pSumando +" + " +sSumando+ " = "+ suma);
-                
+                   suma();
                     break;
 
                 //En caso de resta.
@@ -83,55 +33,21 @@ public class Calculadora {
                 //En caso de multiplicacion.
 
                 case 3:
-                    System.out.print("Introduce los datos y presiona intro: ");
-                    pFactor= lector.nextFloat();
-                    lector.nextLine();
-
-                    sFactor= lector.nextFloat();
-                    lector.nextLine();
-
-                    // Se ejecuta la multiplicacion y luego se imprime.
-
-                    producto= pFactor * sFactor;
-
-                    System.out.println(pFactor +" * "+ sFactor +  " = "+ producto);
+                    multiplicacion();
                         
                     break;
 
                 //En caso de division.
 
                 case 4:
-                    System.out.print("Introduce los datos y presiona intro: ");
-                    dividendo= lector.nextFloat();
-                    lector.nextLine();
-
-                    divisor= lector.nextFloat();
-                    lector.nextLine();
-
-                    // Se ejecuta la division y luego se imprime.
-
-                    cociente= dividendo / divisor;
-
-                    System.out.println(dividendo +" / "+ divisor + " = "+ cociente);
+                    division();
                     
                     break;
 
                 //En caso de que pidan el resto de una division.
 
                 case 5:
-                    System.out.print("Introduce los datos y presiona intro: ");
-                    rDividendo= lector.nextFloat();
-                    lector.nextLine();
-
-
-                    rDivisor= lector.nextFloat();
-                    lector.nextLine();
-
-                    // Se ejecuta la division, se calcula el resto y luego se imprime.
-
-                    resto= rDividendo % rDivisor;
-
-                    System.out.println("El resto de "+rDividendo +" / "+ rDivisor + " es "+ resto);
+                    restoDivision();
                     
                     break;
 
@@ -144,6 +60,45 @@ public class Calculadora {
         } while (decision != 0);
 
 
+    }
+    public void suma(){
+        float pSumando=0;
+        float sSumando=0;
+        float suma;
+        do {
+            System.out.print("Primer sumando: ");
+            try{
+                pSumando= lector.nextFloat();
+                isNumber=true;
+
+            }catch (InputMismatchException ime){
+                System.out.println("Debes introducir un numero no una letra, vuelve a intentarlo.");
+                isNumber=false;
+
+            }finally {
+                lector.nextLine();
+            }
+        }while(!isNumber);
+
+
+        do {
+            System.out.print("Segundo sumando: ");
+            try{
+                sSumando= lector.nextFloat();
+                isNumber=true;
+
+            }catch (InputMismatchException ime){
+                System.out.println("Debes introducir un numero no una letra, vuelve a intentarlo.");
+                isNumber=false;
+
+            }finally {
+                lector.nextLine();
+            }
+        }while(!isNumber);
+
+        suma= pSumando + sSumando;
+
+        System.out.println(pSumando +" + " +sSumando+ " = "+ suma);
     }
     public void resta(){
         float minuendo;
@@ -162,6 +117,61 @@ public class Calculadora {
         resta= sustraendo - minuendo;
 
         System.out.println(sustraendo+ " - "+minuendo+ " = "+ resta);
+    }
+    public void multiplicacion(){
+        float pFactor;
+        float sFactor;
+        float producto;
+
+        System.out.print("Introduce los datos y presiona intro: ");
+        pFactor= lector.nextFloat();
+        lector.nextLine();
+
+        sFactor= lector.nextFloat();
+        lector.nextLine();
+
+        // Se ejecuta la multiplicacion y luego se imprime.
+
+        producto= pFactor * sFactor;
+
+        System.out.println(pFactor +" * "+ sFactor +  " = "+ producto);
+    }
+    public void division(){
+        float dividendo;
+        float divisor;
+        float cociente;
+
+        System.out.print("Introduce los datos y presiona intro: ");
+        dividendo= lector.nextFloat();
+        lector.nextLine();
+
+        divisor= lector.nextFloat();
+        lector.nextLine();
+
+        // Se ejecuta la division y luego se imprime.
+
+        cociente= dividendo / divisor;
+
+        System.out.println(dividendo +" / "+ divisor + " = "+ cociente);
+    }
+    public void restoDivision(){
+        float rDividendo;
+        float rDivisor;
+        float resto;
+
+        System.out.print("Introduce los datos y presiona intro: ");
+        rDividendo= lector.nextFloat();
+        lector.nextLine();
+
+
+        rDivisor= lector.nextFloat();
+        lector.nextLine();
+
+        // Se ejecuta la division, se calcula el resto y luego se imprime.
+
+        resto= rDividendo % rDivisor;
+
+        System.out.println("El resto de "+rDividendo +" / "+ rDivisor + " es "+ resto);
     }
     public int menuCalculadora() {
         int decision=0;
@@ -191,5 +201,8 @@ public class Calculadora {
 
         return decision;
 
+    }
+    public void datosAleatorios(){
+        int[] vector = new int[20];
     }
 }
