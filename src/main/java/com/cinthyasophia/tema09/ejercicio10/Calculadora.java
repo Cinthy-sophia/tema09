@@ -64,6 +64,9 @@ public class Calculadora {
             }catch (InputMismatchException ime){
                 System.out.println("No se pueden realizar operaciones con letras, volviendo a buscar.");
                 isNumber=false;
+            }catch (NumberFormatException nfe){
+                System.out.println("No se pueden realizar operaciones con letras, volviendo a buscar.");
+                isNumber=false;
             }
 
         }while(!isNumber);
@@ -72,6 +75,8 @@ public class Calculadora {
     }
 
     public void resta(){
+        pOperador=Integer.parseInt(datosAleatorios());
+        sOperador=Integer.parseInt(datosAleatorios());
 
         do {
             try {
@@ -79,6 +84,9 @@ public class Calculadora {
                 isNumber=true;
 
             }catch (InputMismatchException ime){
+                System.out.println("No se pueden realizar operaciones con letras, volviendo a buscar.");
+                isNumber=false;
+            }catch (NumberFormatException nfe){
                 System.out.println("No se pueden realizar operaciones con letras, volviendo a buscar.");
                 isNumber=false;
             }
@@ -89,6 +97,8 @@ public class Calculadora {
     }
 
     public void multiplicacion(){
+        pOperador=Integer.parseInt(datosAleatorios());
+        sOperador=Integer.parseInt(datosAleatorios());
 
         do {
             try {
@@ -96,6 +106,9 @@ public class Calculadora {
                 isNumber=true;
 
             }catch (InputMismatchException ime){
+                System.out.println("No se pueden realizar operaciones con letras, volviendo a buscar.");
+                isNumber=false;
+            }catch (NumberFormatException nfe){
                 System.out.println("No se pueden realizar operaciones con letras, volviendo a buscar.");
                 isNumber=false;
             }
@@ -114,6 +127,9 @@ public class Calculadora {
             }catch (InputMismatchException ime){
                 System.out.println("No se pueden realizar operaciones con letras, volviendo a buscar.");
                 isNumber=false;
+            }catch (NumberFormatException nfe){
+                System.out.println("No se pueden realizar operaciones con letras, volviendo a buscar.");
+                isNumber=false;
             }
 
         }while(!isNumber);
@@ -121,6 +137,8 @@ public class Calculadora {
         System.out.println(pOperador +" / " +sOperador+ " = "+ resultado);
     }
     public void restoDivision(){
+        pOperador=Integer.parseInt(datosAleatorios());
+        sOperador=Integer.parseInt(datosAleatorios());
 
         do {
             try {
@@ -128,6 +146,9 @@ public class Calculadora {
                 isNumber=true;
 
             }catch (InputMismatchException ime){
+                System.out.println("No se pueden realizar operaciones con letras, volviendo a buscar.");
+                isNumber=false;
+            }catch (NumberFormatException nfe){
                 System.out.println("No se pueden realizar operaciones con letras, volviendo a buscar.");
                 isNumber=false;
             }
@@ -167,9 +188,8 @@ public class Calculadora {
         for (int i = 0; i < numeros.length; i++) {
             numeros[i]=rnd.nextInt(20);
         }
-
         numAl=rnd.nextInt(50);
-        if (numAl<27){
+        if (numAl<26){
             caracter= String.valueOf(letras.charAt(numAl));
 
         }else{
