@@ -8,8 +8,8 @@ import java.util.Random;
  */
 
 public class Calculadora {
-    public Random rnd = new Random();
-    public final int SLEEP=1500;
+    private Random rnd = new Random();
+    private final int SLEEP=1500;
     private boolean isNumber;
     private double pOperador=0;
     private double sOperador=0;
