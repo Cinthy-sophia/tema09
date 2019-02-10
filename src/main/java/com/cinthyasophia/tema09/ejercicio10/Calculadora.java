@@ -9,7 +9,7 @@ import java.util.Random;
 
 public class Calculadora {
     public Random rnd = new Random();
-    public final int SLEEP=2000;
+    public final int SLEEP=1500;
     private boolean isNumber;
     private double pOperador=0;
     private double sOperador=0;
@@ -61,8 +61,7 @@ public class Calculadora {
                 resultado= pOperador + sOperador;
                 isNumber=true;
 
-            }catch (InputMismatchException ime){
-                System.out.println("No se pueden realizar operaciones con letras, volviendo a buscar.");
+            } catch(NumberFormatException nfe){
                 isNumber=false;
             }
 
@@ -80,11 +79,7 @@ public class Calculadora {
                 resultado= pOperador - sOperador;
                 isNumber=true;
 
-            }catch (InputMismatchException ime){
-                System.out.println("No se pueden realizar operaciones con letras, volviendo a buscar.");
-                isNumber=false;
             }catch (NumberFormatException nfe){
-                System.out.println("No se pueden realizar operaciones con letras, volviendo a buscar.");
                 isNumber=false;
             }
 
@@ -102,11 +97,7 @@ public class Calculadora {
                 resultado= pOperador * sOperador;
                 isNumber=true;
 
-            }catch (InputMismatchException ime){
-                System.out.println("No se pueden realizar operaciones con letras, volviendo a buscar.");
-                isNumber=false;
             }catch (NumberFormatException nfe){
-                System.out.println("No se pueden realizar operaciones con letras, volviendo a buscar.");
                 isNumber=false;
             }
 
@@ -123,11 +114,8 @@ public class Calculadora {
                 resultado= pOperador / sOperador;
                 isNumber=true;
 
-            }catch (InputMismatchException ime){
-                System.out.println("No se pueden realizar operaciones con letras, volviendo a buscar.");
-                isNumber=false;
+
             }catch (NumberFormatException nfe){
-                System.out.println("No se pueden realizar operaciones con letras, volviendo a buscar.");
                 isNumber=false;
             }
 
@@ -143,11 +131,8 @@ public class Calculadora {
                 sOperador=Integer.parseInt(datosAleatorios());
                 resultado= pOperador % sOperador;
                 isNumber=true;
-            }catch (InputMismatchException ime){
-                System.out.println("No se pueden realizar operaciones con letras, volviendo a buscar.");
-                isNumber=false;
+
             }catch (NumberFormatException nfe){
-                System.out.println("No se pueden realizar operaciones con letras, volviendo a buscar.");
                 isNumber=false;
             }
 
@@ -168,11 +153,8 @@ public class Calculadora {
             try{
                 decision=Integer.parseInt(datosAleatorios());
                 isNumber=true;
-            }catch (InputMismatchException ime){
-                System.out.println("No se pueden realizar operaciones con letras, volviendo a buscar.");
-                isNumber=false;
+
             }catch (NumberFormatException nfe){
-                System.out.println("No se pueden realizar operaciones con letras, volviendo a buscar.");
                 isNumber=false;
             }
 
@@ -188,13 +170,14 @@ public class Calculadora {
         String letras = "abcdefghijklmnopqrstuvwxyz";
         String caracter;
         int numAl;
+
         for (int i = 0; i < numeros.length; i++) {
             numeros[i]=rnd.nextInt(20);
         }
+
         numAl=rnd.nextInt(50);
         if (numAl<26){
             caracter= String.valueOf(letras.charAt(numAl));
-
         }else{
             numAl=rnd.nextInt(23);
             caracter= Integer.toString(numeros[numAl]);
