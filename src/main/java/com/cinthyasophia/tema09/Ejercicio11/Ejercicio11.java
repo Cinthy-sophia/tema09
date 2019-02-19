@@ -59,6 +59,7 @@ public class Ejercicio11 {
                 isNumber=true;
             }catch(NumberFormatException nfe){
                 isNumber=false;
+                lib.errorDatos();
             } finally{
                 validado = nia < 1999999 && nia > 0;
             }
@@ -123,6 +124,7 @@ public class Ejercicio11 {
                 isNumber= true;
             }catch (NumberFormatException nfe){
                 isNumber=false;
+                lib.errorDatos();
             }finally {
                 validado = false;
                 i = 0;
@@ -146,6 +148,7 @@ public class Ejercicio11 {
                 isNumber=true;
             }catch (NumberFormatException nfe){
                 isNumber=false;
+                lib.errorDatos();
             }finally {
 
                 /** Para facilitar la introducción de datos permitimos poner números pequeños como teléfono **/
@@ -187,6 +190,7 @@ public class Ejercicio11 {
                 isNumber=true;
             }catch(NumberFormatException nfe){
                 isNumber=false;
+                lib.errorDatos();
             }finally {
                 pos = buscarAlumnoPorNia(nia);
 
@@ -408,7 +412,7 @@ public class Ejercicio11 {
 
             }finally {
 
-                if(opcion < 0 || opcion > 3) {
+                if(opcion < 0 || opcion > 5) {
                     System.out.println("Elija una opción del menú [0-5]");
                     lib.pausa();
                 }
