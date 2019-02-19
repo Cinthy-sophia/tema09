@@ -166,21 +166,16 @@ public class Calculadora {
 
     }
     public String datosAleatorios(){
-        int[] numeros = new int[23];
         String letras = "abcdefghijklmnopqrstuvwxyz";
         String caracter;
         int numAl;
-
-        for (int i = 0; i < numeros.length; i++) {
-            numeros[i]=rnd.nextInt(20);
-        }
 
         numAl=rnd.nextInt(50);
         if (numAl<26){
             caracter= String.valueOf(letras.charAt(numAl));
         }else{
             numAl=rnd.nextInt(23);
-            caracter= Integer.toString(numeros[numAl]);
+            caracter= Integer.toString(numAl);
         }
 
         return caracter;
