@@ -8,7 +8,6 @@ import java.util.GregorianCalendar;
 import java.util.Scanner;
 
 public class Ejercicio11 {
-    private boolean isNumber;
     private Lib lib = new Lib();
     private Scanner lector;
     private Alumno[] alumnos;
@@ -43,19 +42,26 @@ public class Ejercicio11 {
 
     private void nuevoAlumno() {
         boolean validado = false;
-        int nia;
+        int nia=0;
+        int codigo=0;
         String nombre;
         String apellidos;
         String fechaNacimientoString;
         GregorianCalendar fechaNacimiento = null;
         Grupo grupo = null;
-        long telefono;
-
+        long telefono=0;
+        boolean isNumber;
         System.out.println("*** NUEVO ALUMNO ***" );
         do {
             System.out.print("Nia: ");
-            nia = Integer.parseInt(lector.nextLine());
-            validado = nia < 1999999 && nia > 0;
+            try{
+                nia = Integer.parseInt(lector.nextLine());
+                isNumber=true;
+            }catch(NumberFormatException nfe){
+                isNumber=false;
+            } finally{
+                validado = nia < 1999999 && nia > 0;
+            }
             if(!validado) {
                 System.out.println("Nia debe estar comprendido en el rango [0-1999999]");
                 lib.pausa();
@@ -67,7 +73,7 @@ public class Ejercicio11 {
                 System.out.println("Introduzca otro por favor");
                 lib.pausa();
             }
-        } while (!validado);
+        } while (!validado||!isNumber);
 
         do {
             System.out.print("Nombre: ");
@@ -112,9 +118,15 @@ public class Ejercicio11 {
                 System.out.println("Código: " + grupos[i].getCodigo() + ", nombre: " + grupos[i].getNombre());
             }
             System.out.print("Código del grupo: ");
-            int codigo = Integer.parseInt(lector.nextLine());
-            validado = false;
-            i = 0;
+            try{
+                codigo = Integer.parseInt(lector.nextLine());
+                isNumber= true;
+            }catch (NumberFormatException nfe){
+                isNumber=false;
+            }finally {
+                validado = false;
+                i = 0;
+            }
             /** Buscamos que el código que ha introducido el usuario corresponde a un grupo válido **/
             /** En caso afirmativo lo asignamos **/
             while(i < grupos.length && !validado) {
@@ -125,14 +137,21 @@ public class Ejercicio11 {
                     i++;
                 }
             }
-        } while (!validado);
+        } while (!validado||!isNumber);
 
         do {
             System.out.print("Teléfono: ");
-            telefono = Long.parseLong(lector.nextLine());
-            /** Para facilitar la introducción de datos permitimos poner números pequeños como teléfono **/
-            validado = telefono > 0 && telefono < 999999999;
-        } while (!validado);
+            try{
+                telefono = Long.parseLong(lector.nextLine());
+                isNumber=true;
+            }catch (NumberFormatException nfe){
+                isNumber=false;
+            }finally {
+
+                /** Para facilitar la introducción de datos permitimos poner números pequeños como teléfono **/
+                validado = telefono > 0 && telefono < 999999999;
+            }
+        } while (!validado||!isNumber);
 
         /** Buscamos la primera posición libre para insertar el alumno **/
         int i = 0;
@@ -156,12 +175,24 @@ public class Ejercicio11 {
     }
 
     private void bajaAlumno() {
-        int nia;
+        int nia=0;
         int pos;
+        boolean isNumber;
         System.out.println("*** BAJA ALUMNO ***" );
-        System.out.print("Nia: ");
-        nia = Integer.parseInt(lector.nextLine());
-        pos = buscarAlumnoPorNia(nia);
+
+        do {
+            System.out.print("Nia: ");
+            try{
+                nia = Integer.parseInt(lector.nextLine());
+                isNumber=true;
+            }catch(NumberFormatException nfe){
+                isNumber=false;
+            }finally {
+                pos = buscarAlumnoPorNia(nia);
+
+            }
+        }while(!isNumber);
+
         if(pos >= 0) {
             alumnos[pos] = null;
             System.out.println("Alumno borrado correctamente");
@@ -174,20 +205,31 @@ public class Ejercicio11 {
     private void consultas() {
         int opcion;
         int i;
+        boolean isNumber;
         do {
             opcion = menuConsultas();
             switch (opcion) {
                 case 1:
                     //Por grupo
-                    int codigo;
+                    int codigo=0;
                     Alumno[] alumnosGrupo;
                     System.out.println("Grupos disponibles");
                     for (i = 0; i < grupos.length; i++) {
                         System.out.println("Código: " + grupos[i].getCodigo() + ", nombre: " + grupos[i].getNombre());
                     }
-                    System.out.print("Código del grupo: ");
-                    codigo = Integer.parseInt(lector.nextLine());
-                    alumnosGrupo = buscarAlumnoPorGrupo(codigo);
+                    do {
+                        System.out.print("Código del grupo: ");
+                        try{
+                            codigo = Integer.parseInt(lector.nextLine());
+                            isNumber=true;
+                        }catch (NumberFormatException nfe){
+                            isNumber=false;
+                            lib.errorDatos();
+                        }finally {
+                            alumnosGrupo = buscarAlumnoPorGrupo(codigo);
+
+                        }
+                    }while(!isNumber);
                     if (alumnosGrupo != null) {
                         for (i = 0; i < alumnosGrupo.length; i++) {
                             System.out.println(alumnosGrupo[i].toString());
@@ -199,11 +241,21 @@ public class Ejercicio11 {
                     break;
                 case 2:
                     //Por edad
-                    int edad;
+                    int edad=0;
                     Alumno[] alumnosEdad;
-                    System.out.print("Edad: ");
-                    edad = Integer.parseInt(lector.nextLine());
-                    alumnosEdad = buscarAlumnoPorEdad(edad);
+                    do {
+                        System.out.print("Edad: ");
+                        try{
+                            edad = Integer.parseInt(lector.nextLine());
+                            isNumber=true;
+                        }catch (NumberFormatException nfe){
+                            isNumber=false;
+                            lib.errorDatos();
+                        }finally {
+                            alumnosEdad = buscarAlumnoPorEdad(edad);
+                        }
+                    }while(!isNumber);
+
                     if (alumnosEdad != null) {
                         for (i = 0; i < alumnosEdad.length; i++) {
                             System.out.println(alumnosEdad[i].toString());
@@ -215,10 +267,22 @@ public class Ejercicio11 {
                     break;
                 case 3:
                     //Por nia
-                    int nia;
-                    System.out.print("Nia: ");
-                    nia = Integer.parseInt(lector.nextLine());
-                    int pos = buscarAlumnoPorNia(nia);
+                    int nia=0;
+                    int pos;
+                    do {
+                        System.out.print("Nia: ");
+                        try{
+                            nia = Integer.parseInt(lector.nextLine());
+                            isNumber=true;
+                        }catch (NumberFormatException nfe){
+                            isNumber=false;
+                            lib.errorDatos();
+                        }finally {
+
+                            pos = buscarAlumnoPorNia(nia);
+                        }
+
+                    }while(!isNumber);
                     if(pos >= 0) {
                         System.out.println(alumnos[pos].toString());
                     } else {
@@ -290,6 +354,7 @@ public class Ejercicio11 {
 
     private int menuPrincipal() {
         int opcion = -1;
+        boolean isNumber;
         do {
             isNumber=true;
             System.out.println("*********************");
@@ -321,6 +386,7 @@ public class Ejercicio11 {
 
     private int menuConsultas() {
         int opcion = -1;
+        boolean isNumber;
         do {
             isNumber=true;
             System.out.println("***************");

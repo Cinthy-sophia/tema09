@@ -63,6 +63,8 @@ public class Lib {
         return "Elija una opción del menú.";
     }
 
+    public void errorDatos(){ System.out.println("Debes introducir un numero y no una letra.");}
+
     //Devuelve un String al volver al menu principal
     public String volverMenu(){
         return "Volviendo al menu principal.";
